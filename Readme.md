@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Alexey Shulick](https://up.htmlacademy.ru/htmlcss/34/user/2095471).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Савотиков](https://htmlacademy.ru/profile/id98316).
 
 ---
 
