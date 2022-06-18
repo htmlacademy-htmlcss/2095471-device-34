@@ -70,7 +70,7 @@
         </li>
       </ul>
       <ul class="slider-list">
-        <li class="slider-item" id="promo-slide-1">
+        <li class="slider-item-current" id="promo-slide-1">
           <div class="slider-carousel">
             <div class="slider-img-wrapper">
               <img class="slider-img" src="./images/slider/quadrocopter.png" width="560" height="560"
@@ -80,8 +80,7 @@
           <div class="slider-content">
             <h2 class="slider-title">Порхает как бабочка,жалит как пчела!</h2>
             <p class="slider-description">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером,
-              замаскированным под стандартную камеру.
-            </p>
+              замаскированным под стандартную камеру.</p>
             <a class="button" href="">Подробнее</a>
             <table class="advantages">
               <tr class="property">
@@ -94,9 +93,8 @@
               </tr>
             </table>
           </div>
-          </div>
         </li>
-        <li class="slider-item slider-item-current" id="promo-slide-2">
+        <li class="slider-item" id="promo-slide-2">
           <div class="slider-carousel">
             <div class="slider-img-wrapper">
               <img class="slider-img" src="./images/slider/fitness-tracker.png" width="560" height="560"
@@ -119,7 +117,7 @@
             </table>
           </div>
         </li>
-        <li class="slider-item slider-item-current" id="promo-slide-3">
+        <li class="slider-item" id="promo-slide-3">
           <div class="slider-carousel">
             <div class="slider-img-wrapper">
               <img class="slider-img" src="./images/slider/monopod.png" width="560" height="560" alt="Селфи-палка">
@@ -229,44 +227,41 @@
             заработаем, поднимая его на ваш этаж.
           </p>
         </div>
-        <div class="service-picture">
+        <div class="service-picture active">
           <img class="service-img" src="./images/service/deliveryman.svg" width="136" height="164" alt="Курьер">
         </div>
-        <div class="service-content">
-          <h2 class="service-title">Гарантия</h2>
-          <p class="service-description">
-            Если из-за возгорания купленного у нас товара у вас сгорит дом - не перживайте, мы дадим вам новый. Товар,
-            не
-            дом, конечно же.
-          </p>
-        </div>
-        <div class="service-picture-current">
-          <img class="service-img" src="./images/service/guarantee.svg" width="171" height="195" alt="Гарантия">
-        </div>
-        <div class="service-content">
-          <h2 class="service-title">Кредит</h2>
-          <p class="service-description">
-            Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
-            кредита.
-            Выгодные для вашего банка, разумеется.
-          </p>
-        </div>
-        <div class="service-picture-current">
-          <img class="service-img" src="./images/service/credit.svg" width="156" height="188" alt="Кредит">
-        </div>
+      </div>
+      <div class="service-content">
+        <h2 class="service-title">Гарантия</h2>
+        <p class="service-description">
+          Если из-за возгорания купленного у нас товара у вас сгорит дом - не перживайте, мы дадим вам новый. Товар,
+          не
+          дом, конечно же.
+        </p>
+      </div>
+      </div>
+      <div class="service-picture">
+        <img class="service-img" src="./images/service/guarantee.svg" width="171" height="195" alt="Гарантия">
+      </div>
+      <div class="service-content">
+        <h2 class="service-title">Кредит</h2>
+        <p class="service-description">
+          Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия
+          кредита.
+          Выгодные для вашего банка, разумеется.
+        </p>
+      </div>
+      <div class="service-picture">
+        <img class="service-img" src="./images/service/credit.svg" width="156" height="188" alt="Кредит">
+      </div>
     </section>
 
     <section class="delivery">
       <h2 class="visually-hidden">Доставим редкий товар под заказ</h2>
-      <div class="delivery-container">
-        <a class="delivery-link" href="#">
-          <img class="delivery-truck" src="./images/service/delivery-truck.svg" width="47" height="31"
-            alt="Грузовик-доставки">
-        </a>
-      </div>
-      <p class="delivery-rare">Доставим редкий товар под заказ</p>
+      <a class="delivery-link" href="#">
+        <p class="delivery-rare">Доставим редкий товар под заказ</p>
+      </a>
     </section>
-
     <div class="information-wrapper">
       <section class="about">
         <h2 class="about-title">О нас</h2>
@@ -306,13 +301,11 @@
             а
             также акции, спецпредложения и вот это вот всё.</p>
         </div>
-        <div class="newsletter-form-container">
-          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="get">
-            <input type="email" name="newsletter-email" placeholder="Ваш e-mail">
-            <button class="button-subscribe" type="submit">Подписаться</button>
-            <p class="submit-inscription">Это бесплатно</p>
-          </form>
-        </div>
+        <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="get">
+          <input type="email" name="newsletter-email" placeholder="Ваш e-mail">
+          <button class="button-subscribe" type="submit">Подписаться</button>
+          <p class="submit-inscription">Это бесплатно</p>
+        </form>
       </div>
     </section>
   </main>
@@ -330,7 +323,7 @@
         </address>
       </section>
 
-      <section class="button-service-social">
+      <div class="footer-navigation-wrapper">
         <ul class="footer-navigation">
           <li class="footer-navigation-item">
             <a class="footer-navigation-link" href="">Доставка</a>
@@ -360,15 +353,14 @@
             </a>
           </li>
         </ul>
-      </section>
-
-      <section class="phone-htmlacademy-link">
+      </div>
+      <div class="contacts-wrapper">
         <a class="contacts-phone" href="tel:88128121212">8 800 812-12-12</a>
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
           <img class="htmlacademy-icon" src="./images/footer/html.academy.svg" width="115" height="33"
             alt="htmlacademy">
         </a>
-      </section>
+      </div>
     </div>
   </footer>
 </body>
