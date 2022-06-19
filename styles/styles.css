@@ -77,34 +77,21 @@ body {
   background-color: #ffe17f;
 }
 
-
-
 .slider-item {
   display: none;
 }
-
-
-
-
-
 
 .slider-img-wrapper {
   width: 560px;
 }
 
-
 .slider-content {
   width: 560px;
 }
 
-
-
 .slider-item-current {
   display: flex;
 }
-
-
-
 
 .navigation-list-link {
   font-size: 16px;
@@ -193,8 +180,6 @@ body {
 
 .delivery {
   background: #f0f0f0;
-  display: flex;
-  margin: 70px auto;
   width: 1160px;
 }
 
@@ -247,7 +232,6 @@ body {
   text-decoration: none;
   color: inherit;
 }
-
 
 
 .service-title {
@@ -334,10 +318,6 @@ body {
   align-items: center;
 }
 
-.newsletter-title {
-  width: 350px;
-  margin-right: 250px;
-}
 
 .newsletter-text {
   width: 560px;
@@ -367,7 +347,10 @@ body {
   font-size: 50px;
   line-height: 50px;
   color: #000000;
+  width: 350px;
+  margin-right: 250px;
 }
+
 
 .button-subscribe {
   font-family: "Raleway", "Arial", sans-serif;
@@ -411,9 +394,6 @@ body {
   width: 445px;
 }
 
-
-
-
 .footer-social-list {
   display: flex;
   margin: 0;
@@ -426,8 +406,6 @@ body {
   flex-direction: column;
   width: 175px;
 }
-
-
 
 
 .contacts-address-text {
