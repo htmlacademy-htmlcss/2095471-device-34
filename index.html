@@ -10,7 +10,8 @@
 <body>
   <header class="page-header content-wrapper">
     <a class="header-logo" href="index.html">
-      <img class="header-logo-img" alt="Логотип интернет-магазин гаджетов «DEVICE»" src="./images/header/logo-black.svg" width="145" height="36"></a>
+      <img class="header-logo-img" alt="Логотип интернет-магазин гаджетов «DEVICE»" src="./images/header/logo-black.svg" width="145" height="36">
+    </a>
     <nav class="navigation">
       <form class="search" action="https://echo.htmlacademy.ru/" method="get">
         <input class="search-field" type="text" name="text" placeholder="Текст поиска">
@@ -44,9 +45,9 @@
     </nav>
   </header>
 
-  <main class="main-container main-index">
-    <h1 class="visually-hidden">Интернет-магазин гаджетов "DEVICE"</h1>
+  <main class="main-container">
     <section class="promo-slider">
+      <h1 class="visually-hidden">Интернет-магазин гаджетов "DEVICE"</h1>
       <ul class="slider-controls">
         <li class="slider-control">
           <label for="gadget-1">
@@ -68,7 +69,7 @@
         </li>
       </ul>
       <ul class="slider-list">
-        <li class="slider-item-current" id="promo-slide-1">
+        <li class="slider-item slider-item-current" id="promo-slide-1">
           <div class="slider-carousel">
             <div class="slider-img-wrapper">
               <img class="slider-img" src="./images/slider/quadrocopter.png" width="560" height="560" alt="Квадрокоптер">
@@ -208,33 +209,34 @@
         <div class="service-content active">
           <h2 class="service-title">Доставка</h2>
           <p class="service-description">Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+          <div class="service-picture ">
+            <img class="service-img" src="./images/service/deliveryman.svg" width="136" height="164" alt="Курьер">
+          </div>
         </div>
-        <div class="service-picture active">
-          <img class="service-img" src="./images/service/deliveryman.svg" width="136" height="164" alt="Курьер">
+        <div class="service-content">
+          <h2 class="service-title">Гарантия</h2>
+          <p class="service-description">Если из-за возгорания купленного у нас товара у вас сгорит дом - не перживайте, мы дадим вам новый. Товар, не дом, конечно же.</p>
+          <div class="service-picture">
+            <img class="service-img" src="./images/service/guarantee.svg" width="171" height="195" alt="Гарантия">
+          </div>
         </div>
-      </div>
-      <div class="service-content">
-        <h2 class="service-title">Гарантия</h2>
-        <p class="service-description">Если из-за возгорания купленного у нас товара у вас сгорит дом - не перживайте, мы дадим вам новый. Товар, не дом, конечно же.</p>
-      </div>
-      </div>
-      <div class="service-picture">
-        <img class="service-img" src="./images/service/guarantee.svg" width="171" height="195" alt="Гарантия">
-      </div>
-      <div class="service-content">
-        <h2 class="service-title">Кредит</h2>
-        <p class="service-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для вашего банка, разумеется.</p>
-      </div>
-      <div class="service-picture">
-        <img class="service-img" src="./images/service/credit.svg" width="156" height="188" alt="Кредит">
+        <div class="service-content">
+          <h2 class="service-title">Кредит</h2>
+          <p class="service-description">Залезть в долговую яму стало проще! Кредитные консультанты подберут для вас наиболее выгодные условия кредита. Выгодные для вашего банка, разумеется.</p>
+          <div class="service-picture">
+            <img class="service-img" src="./images/service/credit.svg" width="156" height="188" alt="Кредит">
+          </div>
+        </div>
       </div>
     </section>
 
     <section class="delivery">
-      <h2 class="visually-hidden">Доставим редкий товар под заказ</h2>
-      <a class="delivery-link" href="#">
-        <p class="delivery-rare">Доставим редкий товар под заказ</p>
-      </a>
+      <div class="delivery-background">
+        <h2 class="visually-hidden">Доставим редкий товар под заказ</h2>
+        <a class="delivery-link" href="#">
+          <p class="delivery-rare">Доставим редкий товар под заказ</p>
+        </a>
+      </div>
     </section>
     <div class="information-wrapper">
       <section class="about">
