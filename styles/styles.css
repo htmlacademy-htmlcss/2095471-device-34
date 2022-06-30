@@ -52,7 +52,7 @@ body {
   overflow: hidden;
 }
 
-.header-logo-link {
+.header-logo {
   display: flex;
   padding-left: 60px;
   margin-top: -20px;
@@ -76,7 +76,6 @@ body {
 .search-field {
   width: 358px;
   font-family: "Rubik", "Arial", sans-serif;
-  ;
   font-size: 16px;
   line-height: 20px;
   padding: 8px 0 8px 48px;
@@ -269,8 +268,8 @@ body {
   width: 280px;
   list-style: none;
   gap: 42px;
-  margin: 0;
-  padding: 72px 116px 72px 0;
+  margin: 0 116px 0 0;
+  padding: 72px 0 72px 0;
 }
 
 .service-text-container {
@@ -489,7 +488,7 @@ body {
   margin: 0;
   padding: 11px 0 14px 16px;
   width: 557px;
-  font-family: "Rubik";
+  font-family: "Rubik" , "Arial", sans-serif; 
   font-size: 18px;
   line-height: 30px;
 }
@@ -523,22 +522,26 @@ body {
   color: #000000;
 }
 
-
 .page-footer {
   background: #444444;
   width: 100%;
 }
 
+.page-footer-wrapper {
+  margin: 0 auto;
+  width: 1160px;
+}
+
 .footer-logo {
   display: flex;
-  width: 1160px;
-  margin: 62px auto 0;
+  width: 145px;
+  height: 36px;
+  margin-top: 62px;
 }
 
 .page-footer-container {
   display: flex;
-  width: 1160px;
-  margin: 35px auto 0 auto;
+  margin-top: 35px;
   justify-content: space-between;
 }
 
@@ -743,7 +746,7 @@ body {
 }
 
 .select-control {
-  font-family: "Rubik";
+  font-family: "Rubik", "Arial", sans-serif;
   font-size: 18px;
   line-height: 30px;
   margin-right: 206px;
