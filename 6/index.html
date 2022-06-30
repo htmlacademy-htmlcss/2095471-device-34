@@ -10,13 +10,11 @@
 
 <body>
   <header class="page-header content-wrapper">
-    <div class="header-logo">
-      <a class="header-logo-link" href="index.html">
-        <img class="header-logo-img" alt="Логотип интернет-магазин гаджетов «DEVICE»" src="./images/header/logo-black.svg" width="145" height="36">
-      </a>
-    </div>
-    <div class="navigation-container">
-      <nav class="navigation-header-user">
+    <a class="header-logo-link" href="index.html">
+      <img class="header-logo-img" alt="Логотип интернет-магазин гаджетов «DEVICE»" src="./images/header/logo-black.svg" width="145" height="36">
+    </a>
+    <nav class="navigation-container">
+      <div class="navigation-header-user">
         <form class="search" action="https://echo.htmlacademy.ru/" method="get">
           <input class="search-field" type="text" name="text" placeholder="Текст поиска">
           <button class="button-submit" type="submit">Найти</button>
@@ -32,9 +30,8 @@
             <a class="navigation-list-link" href="">Корзина</a>
           </li>
         </ul>
-      </nav>
-
-      <nav class="navigation-header-catalog">
+      </div>
+      <div class="navigation-header-catalog">
         <ul class="navigation-catalog-list">
           <li class="navigation-item catalog-item">
             <a class="navigation-link" href="catalog.html">Каталог товаров</a>
@@ -49,8 +46,8 @@
             <a class="navigation-link" href="">Контакты</a>
           </li>
         </ul>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
   <main class="main-container">
@@ -176,7 +173,8 @@
         <li class="categories-item">
           <a class="categories-link" href="">
             <div class="background-categories">
-              <img class="categories-icon" src="./images/icons/fitness-tracker-4.svg" width="107" height="65" alt="Фитнес-браслеты">
+              <img class="categories-icon" src="./images/icons/fitness-tracker-4.svg" width="107" height="65"
+                alt="Фитнес-браслеты">
             </div>
             <p class="categories-description">Фитнес-браслеты</p>
           </a>
@@ -266,10 +264,11 @@
 
       <section class="contacts">
         <h2 class="contacts-title">Контакты</h2>
-        <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить работоспособность покупки.</p>
+        <p class="contacts-text">Вы можете забрать товар сами, заехав в наш офис. Заодно сможете проверить
+          работоспособность покупки.</p>
         <h3 class="contacts-subtitle">Интернет-магазин «Девайс»</h3>
         <address class="contacts-address">
-          <p class="contacts-adress-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
           <a class="contacts-phone" href="tel:88128121212">+7 (812) 812-12-12</a>
         </address>
         <h3 class="contacts-subtitle">Время работы</h3>
@@ -289,7 +288,7 @@
         </div>
 
         <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="get">
-          <input class="newsletter-email-line" type="email" name="newsletter-email" placeholder="Ваш e-mail">
+          <input class="newsletter-form-input" type="email" name="newsletter-email" placeholder="Ваш e-mail">
           <button class="button-subscribe" type="submit">Подписаться</button>
           <p class="submit-inscription">Это бесплатно</p>
         </form>
@@ -298,19 +297,15 @@
   </main>
 
   <footer class="page-footer">
-    <div class="footer-logo">
-      <a class="footer-logo-yellow" href="index.html">
-        <img class="footer-logo-img" src="./images/footer/logo-yellow.svg" width="145" height="36" alt="Логотип интернет-магазин гаджетов «DEVICE»">
-      </a>
-    </div>
+    <a class="footer-logo" href="index.html">
+      <img class="footer-logo-img" src="./images/footer/logo-yellow.svg" width="145" height="36" alt="Логотип интернет-магазин гаджетов «DEVICE»">
+    </a>
     <div class="page-footer-container">
-      <section class="footer-contacts-left">
-        <h2 class="visually-hidden">Контакты</h2>
+      <div class="footer-contacts-left">
         <address class="footer-contacts-address">
-          <p class="contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+          <p class="footer-contacts-address-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
         </address>
-      </section>
-
+      </div>
       <div class="footer-navigation-wrapper">
         <ul class="footer-navigation">
           <li class="footer-navigation-item">
@@ -323,7 +318,6 @@
             <a class="footer-navigation-link" href="">Контакты</a>
           </li>
         </ul>
-        <h2 class="visually-hidden">Социальные сети</h2>
         <ul class="footer-social-list">
           <li class="footer-social-item">
             <a class="social-button" href="https://t.me/htmlacademy">
