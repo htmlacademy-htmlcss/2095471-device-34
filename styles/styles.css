@@ -378,17 +378,13 @@ body {
 }
 
 .information-wrapper {
-  width: 1160px;
-  margin: 0 auto;
-  
-}
- .information-container {
   display: grid;
   grid-template-columns: 520px 530px; 
   justify-content: center;
   column-gap: 108px;
   margin: 70px 0 70px 0;
- }
+}
+ 
  
 .about {
   width: 520px;
