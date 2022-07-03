@@ -258,7 +258,6 @@ body {
 .service-container {
   display: flex;
   margin: 0 auto;
-
   width: 1160px;
 }
 
@@ -270,6 +269,7 @@ body {
   gap: 42px;
   margin: 0 116px 0 0;
   padding: 72px 0 72px 0;
+  flex-wrap: wrap;
 }
 
 .service-text-container {
@@ -278,6 +278,8 @@ body {
 
 .service-content {
   display: none;
+  flex-wrap: wrap;
+  
 }
 
 .service-content.active {
@@ -376,11 +378,14 @@ body {
 }
 
 .information-wrapper {
-  display: flex;
-  margin: 70px auto;
-  width: 1160px;
+  display: grid;
+  grid-template-columns: 520px 530px; 
+  justify-content: center;
+  column-gap: 108px;
+  margin: 70px 0 70px 0;
 }
-
+ 
+ 
 .about {
   width: 520px;
   margin-right: 108px;
@@ -456,6 +461,8 @@ body {
 .contacts-worktime {
   margin-bottom: 30px;
 }
+
+
 
 .newsletter {
   background: #f0f0f0;
