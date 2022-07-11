@@ -68,23 +68,23 @@
     <section class="promo-slider">
       <h1 class="visually-hidden">Интернет-магазин гаджетов "DEVICE"</h1>
       <ul class="slider-controls">
-        <li class="slider-control-first">
+        <li class="slider-control">
           <label for="gadget-1">
             <span class="visually-hidden">01</span>
           </label>
-          <input class="carousel-toggle visually-hidden" type="radio" id="gadget-1" name="toggle" checked>
+          <input class="visually-hidden carousel-toggle" type="radio" id="gadget-1" name="toggle" checked>
         </li>
-        <li class="slider-control-second">
+        <li class="slider-control">
           <label for="gadget-2">
             <span class="visually-hidden">02</span>
           </label>
-          <input class="carousel-toggle visually-hidden" type="radio" id="gadget-2" name="toggle">
+          <input class="visually-hidden carousel-toggle" type="radio" id="gadget-2" name="toggle">
         </li>
-        <li class="slider-control-third">
+        <li class="slider-control">
           <label for="gadget-3">
             <span class="visually-hidden">03</span>
           </label>
-          <input class="carousel-toggle visually-hidden" type="radio" id="gadget-3" name="toggle">
+          <input class="visually-hidden carousel-toggle" type="radio" id="gadget-3" name="toggle">
         </li>
       </ul>
       <ul class="slider-list">
@@ -119,6 +119,12 @@
         </li>
         <li class="slider-item" id="promo-slide-2">
           <div class="slider-carousel">
+            <button class="slider-button slider-button-prev">
+              <svg width="20" height="60" viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 60h-3.5L0 30 16.5 0H20L3.8 30 20 60Z" fill="#000"/></svg>
+            </button>
+            <button class="slider-button slider-button-next">
+              <svg width="20" height="60" viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h3.5L20 30 3.5 60H0l16.2-30L0 0Z" fill="#000"/></svg>
+            </button>
             <div class="slider-img-wrapper">
               <img class="slider-img" src="./images/slider/fitness-tracker.png" width="560" height="560" alt="Фитнес-браслет">
             </div>
@@ -140,6 +146,12 @@
         </li>
         <li class="slider-item" id="promo-slide-3">
           <div class="slider-carousel">
+            <button class="slider-button slider-button-prev">
+              <svg width="20" height="60" viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 60h-3.5L0 30 16.5 0H20L3.8 30 20 60Z" fill="#000"/></svg>
+            </button>
+            <button class="slider-button slider-button-next">
+              <svg width="20" height="60" viewBox="0 0 20 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h3.5L20 30 3.5 60H0l16.2-30L0 0Z" fill="#000"/></svg>
+            </button>
             <div class="slider-img-wrapper">
               <img class="slider-img" src="./images/slider/monopod.png" width="560" height="560" alt="Селфи-палка">
             </div>
@@ -221,20 +233,20 @@
     </section>
     
     <section class="service">
-    <div class="service-wrapper">
-      <h2 class="visually-hidden">Доставка, гарантия, кредит</h2>
-      <div class="service-container">
-        <ul class="service-list">
-          <li class="service-list-item">
-            <button class="button button-service button-service-current">Доставка</button>
-          </li>
-          <li class="service-list-item">
-            <button class="button button-service">Гарантия</button>
-          </li>
-          <li class="service-list-item">
-            <button class="button button-service">Кредит</button>
-          </li>
-        </ul>
+      <div class="service-wrapper">
+        <h2 class="visually-hidden">Доставка, гарантия, кредит</h2>
+        <div class="service-container">
+          <ul class="service-list">
+            <li class="service-list-item">
+              <button class="button button-service button-service-current">Доставка</button>
+            </li>
+            <li class="service-list-item">
+              <button class="button button-service">Гарантия</button>
+            </li>
+            <li class="service-list-item">
+              <button class="button button-service">Кредит</button>
+            </li>
+          </ul>
         <div class="service-content active">
           <div class="service-text-container">
             <h2 class="service-title">Доставка</h2>
@@ -357,26 +369,20 @@
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="social-button" href="https://t.me/htmlacademy">
-                <div class="social-icon-wrapper">
                   <svg class="social-button-icon" aria-hidden="true" focusable="false" width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.44.07.62 4.63c-.8.33-.8.78-.14.98l3.03.94 7.02-4.43c.33-.2.64-.09.39.13l-5.7 5.13-.2 3.13c.3 0 .44-.14.61-.3l1.48-1.44 3.06 2.27c.57.31.97.15 1.12-.53l2-9.48c.21-.83-.3-1.2-.85-.96Z" fill="#444"/></svg>
                   <span class="visually-hidden">Телеграм</span>
-                </div>
               </a>
             </li>
             <li class="footer-social-item">
               <a class="social-button" href="https://www.youtube.com/user/htmlacademyru">
-                <div class="social-icon-wrapper">
                   <svg class="social-button-icon" aria-hidden="true" focusable="false" width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M15.67 1.67A1.97 1.97 0 0 0 14.26.33C13.01 0 8 0 8 0 5.9-.02 3.8.08 1.74.32A1.96 1.96 0 0 0 .33 1.67 19.4 19.4 0 0 0 0 5.34C0 6.56.1 7.79.33 9c.09.32.27.61.51.85.25.23.56.4.9.5 1.27.32 6.26.32 6.26.32 2.09.02 4.18-.08 6.26-.31.34-.09.65-.26.9-.5.24-.23.42-.52.5-.84.24-1.21.35-2.44.34-3.67.02-1.23-.1-2.46-.33-3.68ZM6.4 7.62V3.05l4.18 2.29L6.4 7.62Z" fill="#444"/></svg>
                   <span class="visually-hidden">Youtube</span>
-                </div>
               </a>
             </li>
             <li class="footer-social-item">
               <a class="social-button" href="https://twitter.com/htmlacademy_ru">
-                <div class="social-icon-wrapper">
                   <svg class="social-button-icon" aria-hidden="true" focusable="false" width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M9.7.16c1.5-.5 2.6.3 3.2 1.1.5-.2 1.1-.4 1.7-.6 0 .8-.5 1.4-.8 1.6.7.2 1.2-.4 1.2-.4-.1.9-.9 1.7-1.4 1.9-.2 6.3-2.8 10.4-8.9 10.3h-.4c-.3 0-3.7-.4-4.3-1.8 2 .2 3.4-.4 4.1-1.1-.8-.3-2.4-.4-2.6-2.8.3.2.5.3 1.1.2-1.1-.8-2.3-1.5-2.2-3.5.3.3.9.5 1.2.4C1 5.26-.2 2.36.8.86c1.6 1.7 3.3 3.4 6.3 3.5.2-2.1 1-3.5 2.6-4.2Z" fill="#444"/></svg>
                   <span class="visually-hidden">Twitter</span>
-                </div>
               </a>
             </li>
           </ul>
