@@ -1364,6 +1364,7 @@ body {
   height: 18px;
   background-color: #EBEBEB;
   border-radius: 50%;
+  border: 2px solid #000000;
   cursor: pointer;
 }
 
@@ -1506,7 +1507,7 @@ body {
   border-radius: 3px;
 }
 
-.control-input:checked+.control-mark {
+.control-input:checked +.control-mark {
   border-color: #000000;
 }
 
@@ -1876,12 +1877,12 @@ body {
   flex-direction: column;
 }
 
-.modal-order-contacts {
+.order-form-field-contacts {
   display: block;
   width: 360px;
 }
 
-.order-form .field:focus {
+.order-form-field-contacts:focus {
   outline: solid 2px #af4fff;
 }
 
@@ -1910,7 +1911,7 @@ body {
 
 .modal-button {
   width: 200px;
-  z-index: 6;
+  z-index: auto;
 }
 
 .button:focus {
@@ -1929,7 +1930,7 @@ body {
   display: flex;
 }
 
-.order-form-field.error + .modal-text-form {
+.order-form-field.error + .modal-form-text {
   color: #FF3D3D;
 }
 
@@ -1962,31 +1963,31 @@ body {
 
 .button-modal-min:focus-visible {
   outline: solid 2px #af4fff;
-  z-index: 8;
+  z-index: auto;
 }
 
 .button-modal-max:focus-visible {
   outline: solid 2px #af4fff;
-  z-index: 8;
+  z-index: auto;
 }
 
 .button-modal-min.error {
   outline: solid 2px #ff3d3d;
-  z-index: 8;
+  z-index: auto;
 }
 
 .button-modal-max.error {
   outline: solid 2px #ff3d3d;
-  z-index: 8;
+  z-index: auto;
 }
 
-.minus-icon:hover,
-.plus-icon:hover {
+.button-modal-min:hover .minus-icon,
+.button-modal-max:hover .plus-icon {
   fill-opacity: 0.6;
 }
 
-.minus-icon:active,
-.plus-icon:active {
+.button-modal-min:active .minus-icon,
+.button-modal-max:active .plus-icon {
   fill-opacity: 0.3;
 }
 
@@ -2076,6 +2077,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   color: rgba(0, 0, 0, 1);
+  border: 2px solid #f0f0f0;
 }
 
 .order-form-field:hover {
