@@ -1507,11 +1507,11 @@ body {
   border-radius: 3px;
 }
 
-.control-input:checked +.control-mark {
+.control-input:checked + .control-mark {
   border-color: #000000;
 }
 
-.control-input+.control-mark {
+.control-input + .control-mark {
   border: solid 2px #cccccc;
 }
 
@@ -1547,7 +1547,7 @@ body {
   border-radius: 50%;
 }
 
-.control-input:focus+.control-mark {
+.control-input:focus + .control-mark {
   outline: solid 2px #af4fff;
   outline-offset: 2px;
   border-radius: 0;
@@ -1963,22 +1963,18 @@ body {
 
 .button-modal-min:focus-visible {
   outline: solid 2px #af4fff;
-  z-index: auto;
 }
 
 .button-modal-max:focus-visible {
   outline: solid 2px #af4fff;
-  z-index: auto;
 }
 
 .button-modal-min.error {
   outline: solid 2px #ff3d3d;
-  z-index: auto;
 }
 
 .button-modal-max.error {
   outline: solid 2px #ff3d3d;
-  z-index: auto;
 }
 
 .button-modal-min:hover .minus-icon,
@@ -2071,7 +2067,6 @@ body {
 .order-form-field {
   background-color: #f0f0f0;
   padding: 18px 38px 18px 20px;
-  border: none;
   box-sizing: border-box;
   font-family: "Rubik", "Arial", sans-serif;
   font-size: 16px;
@@ -2096,7 +2091,7 @@ body {
   opacity: 0.1;
 }
 
-.auth-form-field.error {
+.order-form-field.error {
   outline: 2px solid #ff3d3d;
 }
 
